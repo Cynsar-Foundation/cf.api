@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "harvestings",
+  "info": {
+    "singularName": "harvesting",
+    "pluralName": "harvestings",
+    "displayName": "Harvesting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "methods": {
+      "type": "string"
+    },
+    "tools": {
+      "type": "string"
+    },
+    "date_picked": {
+      "type": "date"
+    },
+    "post_harvest_treatment": {
+      "type": "string"
+    },
+    "compliance_local_regulation": {
+      "type": "boolean"
+    }
+  }
+}

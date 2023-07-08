@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_accessories",
+  "info": {
+    "singularName": "additional-accessorie",
+    "pluralName": "additional-accessories",
+    "displayName": "Additional Accessories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sampleId": {
+      "type": "uid"
+    },
+    "date_collected": {
+      "type": "date"
+    },
+    "collectors_name": {
+      "type": "string"
+    },
+    "contact_information": {
+      "type": "string"
+    },
+    "class_datum": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::class-data.class-data"
+    },
+    "certification": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::certification.certification"
+    },
+    "chemical_analysis": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::chemical-analysis.chemical-analysis"
+    },
+    "harvesting": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::harvesting.harvesting"
+    },
+    "processing": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::processing.processing"
+    },
+    "social_responsibility": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::social-responsibility.social-responsibility"
+    },
+    "sustainability": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sustainability.sustainability"
+    },
+    "transportation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::transportation.transportation"
+    },
+    "source_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

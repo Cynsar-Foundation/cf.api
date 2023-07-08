@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weaving_of_fabrics",
+  "info": {
+    "singularName": "weaving-of-fabric",
+    "pluralName": "weaving-of-fabrics",
+    "displayName": "Weaving of Fabric",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Weaving_Start_Date": {
+      "type": "date"
+    },
+    "Weaving_End_Date": {
+      "type": "date"
+    },
+    "Fabric_Quantity": {
+      "type": "decimal"
+    },
+    "Fabric_Quality_Score": {
+      "type": "integer"
+    },
+    "Design_Name": {
+      "type": "string"
+    },
+    "Number_of_Designs_Produced": {
+      "type": "integer"
+    },
+    "Weaving_Location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

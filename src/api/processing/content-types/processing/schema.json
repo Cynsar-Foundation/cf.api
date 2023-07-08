@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "processings",
+  "info": {
+    "singularName": "processing",
+    "pluralName": "processings",
+    "displayName": "Processing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_of_facility": {
+      "type": "string"
+    },
+    "methods": {
+      "type": "string"
+    },
+    "qc_mesasures": {
+      "type": "string"
+    },
+    "waste_management_process": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dyeing_of_yarns",
+  "info": {
+    "singularName": "dyeing-of-yarn",
+    "pluralName": "dyeing-of-yarns",
+    "displayName": "Dyeing of Yarn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Dyeing_Start_Date": {
+      "type": "date"
+    },
+    "Dyeing_End_Date": {
+      "type": "date"
+    },
+    "Dyed_Yarn_Quantity": {
+      "type": "float"
+    },
+    "Colorfastness_Score": {
+      "type": "integer"
+    },
+    "Dyeing_Facility_Location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    },
+    "Dye_Color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

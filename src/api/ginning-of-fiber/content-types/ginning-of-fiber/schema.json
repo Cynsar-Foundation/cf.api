@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ginning_of_fibers",
+  "info": {
+    "singularName": "ginning-of-fiber",
+    "pluralName": "ginning-of-fibers",
+    "displayName": "Ginning of Fiber",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ginning_Start_Date": {
+      "type": "date"
+    },
+    "Ginning_End_Date": {
+      "type": "date"
+    },
+    "Clean_Fiber_Quantity": {
+      "type": "decimal"
+    },
+    "Cleaning_Efficiency": {
+      "type": "decimal"
+    },
+    "Ginning_Facility_Location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

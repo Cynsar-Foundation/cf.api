@@ -1,0 +1,34 @@
+{
+  "name": "jaal-yantra",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Full fledged open database server for textiles",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@amicaldo/strapi-google-maps": "^1.0.2",
+    "@strapi/plugin-color-picker": "^4.11.3",
+    "@strapi/plugin-graphql": "^4.11.3",
+    "@strapi/plugin-i18n": "4.11.3",
+    "@strapi/plugin-users-permissions": "4.11.3",
+    "@strapi/strapi": "4.11.3",
+    "better-sqlite3": "8.0.1",
+    "pg": "^8.11.1",
+    "pg-connection-string": "^2.6.1"
+  },
+  "author": {
+    "name": "Saransh Sharma"
+  },
+  "strapi": {
+    "uuid": "d13b3e48-569a-45b2-84a0-e3d62a0e715a"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

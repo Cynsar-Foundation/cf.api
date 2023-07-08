@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spinning_of_yarns",
+  "info": {
+    "singularName": "spinning-of-yarn",
+    "pluralName": "spinning-of-yarns",
+    "displayName": "Spinning of Yarn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Spinning_Start_Date": {
+      "type": "date"
+    },
+    "Spinning_End_Date": {
+      "type": "date"
+    },
+    "Yarn_Quality_Score": {
+      "type": "integer"
+    },
+    "Spinning_Efficiency": {
+      "type": "decimal"
+    },
+    "Yarn_Quantity": {
+      "type": "decimal"
+    },
+    "Spinning_Facility_Location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}
