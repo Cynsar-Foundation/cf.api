@@ -14,6 +14,7 @@ module.exports = [
             'data:',
             'https://maps.gstatic.com',
             'https://maps.googleapis.com',
+            'res.cloudinary.com'
           ],
           'img-src': [
             "'self'",
@@ -41,27 +42,8 @@ module.exports = [
             'khms3.googleapis.com',
             'streetviewpixels-pa.googleapis.com',
             'market-assets.strapi.io',
+            'res.cloudinary.com'
           ],
-        },
-      },
-    },
-  },
-  {
-    name: 'strapi::security',
-    config: {
-      contentSecurityPolicy: {
-        useDefaults: true,
-        directives: {
-          'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'market-assets.strapi.io', 'res.cloudinary.com'],
-          'media-src': [
-            "'self'",
-            'data:',
-            'blob:',
-            'market-assets.strapi.io',
-            'res.cloudinary.com',
-          ],
-          upgradeInsecureRequests: null,
         },
       },
     },

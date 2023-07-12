@@ -16,6 +16,7 @@
     "@strapi/plugin-graphql": "^4.11.4",
     "@strapi/plugin-i18n": "4.11.4",
     "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/provider-email-sendgrid": "^4.11.4",
     "@strapi/provider-upload-cloudinary": "^4.11.4",
     "@strapi/strapi": "4.11.4",
     "@yarnpkg/pnpify": "^4.0.0-rc.48",
