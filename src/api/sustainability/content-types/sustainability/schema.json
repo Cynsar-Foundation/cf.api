@@ -27,6 +27,12 @@
     },
     "management_of_harvested_areas": {
       "type": "string"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "sustainabilities"
     }
   }
 }

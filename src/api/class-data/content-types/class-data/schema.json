@@ -19,6 +19,12 @@
     },
     "age_type": {
       "type": "decimal"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "class_data"
     }
   }
 }

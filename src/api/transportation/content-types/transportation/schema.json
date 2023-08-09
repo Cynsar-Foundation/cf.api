@@ -22,6 +22,12 @@
     },
     "emission_levels": {
       "type": "string"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "transportation"
     }
   }
 }

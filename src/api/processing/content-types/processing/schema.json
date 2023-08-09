@@ -22,6 +22,12 @@
     },
     "waste_management_process": {
       "type": "string"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "processings"
     }
   }
 }

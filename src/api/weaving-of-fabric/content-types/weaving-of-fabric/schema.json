@@ -33,6 +33,18 @@
     "Weaving_Location": {
       "type": "customField",
       "customField": "plugin::google-maps.location-picker"
+    },
+    "certifications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::certification.certification",
+      "mappedBy": "weaving_of_fabrics"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "weaving_of_fabrics"
     }
   }
 }

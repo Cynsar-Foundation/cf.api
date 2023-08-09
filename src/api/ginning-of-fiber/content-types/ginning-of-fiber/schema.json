@@ -27,6 +27,12 @@
     "Ginning_Facility_Location": {
       "type": "customField",
       "customField": "plugin::google-maps.location-picker"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "ginning_of_fibers"
     }
   }
 }

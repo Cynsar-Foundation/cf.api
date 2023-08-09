@@ -4,7 +4,8 @@
   "info": {
     "singularName": "certification",
     "pluralName": "certifications",
-    "displayName": "certifications"
+    "displayName": "certifications",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,18 @@
     },
     "organic_certificate": {
       "type": "boolean"
+    },
+    "weaving_of_fabrics": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::weaving-of-fabric.weaving-of-fabric",
+      "inversedBy": "certifications"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "certifications"
     }
   }
 }

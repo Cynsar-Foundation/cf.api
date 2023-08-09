@@ -19,6 +19,12 @@
     },
     "community_process": {
       "type": "string"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "social_responsibilities"
     }
   }
 }

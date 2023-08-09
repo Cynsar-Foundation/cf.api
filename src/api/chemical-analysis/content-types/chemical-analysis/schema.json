@@ -29,6 +29,12 @@
       ],
       "type": "media",
       "multiple": true
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "chemical_analyses"
     }
   }
 }

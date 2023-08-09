@@ -25,6 +25,12 @@
     },
     "compliance_local_regulation": {
       "type": "boolean"
+    },
+    "sourcings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sourcing.sourcing",
+      "mappedBy": "harvestings"
     }
   }
 }
