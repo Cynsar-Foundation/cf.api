@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sourcings",
+  "info": {
+    "singularName": "sourcing",
+    "pluralName": "sourcings",
+    "displayName": "sourcing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "certifications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::certification.certification",
+      "inversedBy": "sourcings"
+    },
+    "weaving_of_fabrics": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::weaving-of-fabric.weaving-of-fabric",
+      "inversedBy": "sourcings"
+    },
+    "dyeing_of_yarns": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dyeing-of-yarn.dyeing-of-yarn",
+      "inversedBy": "sourcings"
+    },
+    "chemical_analyses": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::chemical-analysis.chemical-analysis",
+      "inversedBy": "sourcings"
+    },
+    "class_data": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::class-data.class-data",
+      "inversedBy": "sourcings"
+    },
+    "farming_of_fibres": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::farming-of-fibre.farming-of-fibre",
+      "inversedBy": "sourcings"
+    },
+    "ginning_of_fibers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::ginning-of-fiber.ginning-of-fiber",
+      "inversedBy": "sourcings"
+    },
+    "harvestings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::harvesting.harvesting",
+      "inversedBy": "sourcings"
+    },
+    "processings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::processing.processing",
+      "inversedBy": "sourcings"
+    },
+    "social_responsibilities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::social-responsibility.social-responsibility",
+      "inversedBy": "sourcings"
+    },
+    "spinning_of_yarns": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::spinning-of-yarn.spinning-of-yarn",
+      "inversedBy": "sourcings"
+    },
+    "sustainabilities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::sustainability.sustainability",
+      "inversedBy": "sourcings"
+    },
+    "transportation": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transportation.transportation",
+      "inversedBy": "sourcings"
+    },
+    "yarn_dealerships": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::yarn-dealership.yarn-dealership",
+      "inversedBy": "sourcings"
+    },
+    "yarn_suppliers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::yarn-supplier.yarn-supplier",
+      "inversedBy": "sourcings"
+    },
+    "name": {
+      "type": "string"
+    },
+    "documentary_evidence": {
+      "type": "richtext"
+    },
+    "people": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::person.person",
+      "inversedBy": "sourcings"
+    }
+  }
+}
