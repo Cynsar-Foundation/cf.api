@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_processing_processings",
+  "info": {
+    "displayName": "Processing"
+  },
+  "options": {},
+  "attributes": {
+    "Facility_Type": {
+      "type": "enumeration",
+      "enum": [
+        "Local",
+        "Collective"
+      ]
+    },
+    "method_used": {
+      "type": "text"
+    },
+    "quality_measures": {
+      "type": "text"
+    }
+  }
+}

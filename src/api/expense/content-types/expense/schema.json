@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expenses",
+  "info": {
+    "singularName": "expense",
+    "pluralName": "expenses",
+    "displayName": "Expenses",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "who": {
+      "type": "component",
+      "repeatable": false,
+      "component": "persons.persons"
+    },
+    "Payments": {
+      "type": "component",
+      "repeatable": false,
+      "component": "payments.payments"
+    }
+  }
+}

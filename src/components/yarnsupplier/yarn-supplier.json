@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_yarnsupplier_yarn_suppliers",
+  "info": {
+    "displayName": "Yarn_Supplier"
+  },
+  "options": {},
+  "attributes": {
+    "storage_capacity": {
+      "type": "string"
+    },
+    "date_of_supply": {
+      "type": "date"
+    },
+    "yarn_supply_quantity": {
+      "type": "integer"
+    },
+    "yarn_quality_check": {
+      "type": "boolean"
+    },
+    "supplier_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

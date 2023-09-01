@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_farming_farming_of_fibres",
+  "info": {
+    "displayName": "FarmingOfFibre",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FibreType": {
+      "type": "enumeration",
+      "enum": [
+        "Cotton",
+        "Wool",
+        "Silk",
+        "Hemp",
+        "Linen",
+        "Polyester ",
+        "Nylon",
+        "Acrylic ",
+        "Lycra"
+      ]
+    },
+    "cultivationArea": {
+      "type": "decimal"
+    },
+    "cultivation_date": {
+      "type": "date"
+    },
+    "harvestDate": {
+      "type": "date"
+    },
+    "RawFibreQuantity": {
+      "type": "decimal"
+    },
+    "FiberQualityScore": {
+      "type": "decimal"
+    },
+    "fibre_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    },
+    "PhotoProof": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

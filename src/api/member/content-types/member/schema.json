@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Members",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Who": {
+      "type": "component",
+      "repeatable": false,
+      "component": "persons.persons"
+    },
+    "donation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::donation.donation",
+      "inversedBy": "members"
+    },
+    "FullName": {
+      "type": "string"
+    }
+  }
+}

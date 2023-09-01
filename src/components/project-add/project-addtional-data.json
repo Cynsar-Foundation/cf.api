@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_project_add_project_addtional_data",
+  "info": {
+    "displayName": "ProjectAddtionalData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "priority": {
+      "type": "enumeration",
+      "enum": [
+        "High",
+        "Medium"
+      ]
+    },
+    "progress": {
+      "type": "integer"
+    },
+    "documents": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "VRPG": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vrpg.vrpg"
+    },
+    "DocumentLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}

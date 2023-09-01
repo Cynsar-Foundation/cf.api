@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_transportation_transportation",
+  "info": {
+    "displayName": "Transportation"
+  },
+  "options": {},
+  "attributes": {
+    "Mode": {
+      "type": "string"
+    },
+    "distance_from": {
+      "type": "integer"
+    },
+    "duration_of_transport": {
+      "type": "decimal"
+    },
+    "emission_levels": {
+      "type": "integer"
+    }
+  }
+}

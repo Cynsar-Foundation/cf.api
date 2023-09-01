@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_dyeing_dyeing_of_yarns",
+  "info": {
+    "displayName": "DyeingOfYarn"
+  },
+  "options": {},
+  "attributes": {
+    "date_of_dyeing": {
+      "type": "date"
+    },
+    "dyeing_end_date": {
+      "type": "date"
+    },
+    "dyeing_quantity": {
+      "type": "integer"
+    },
+    "colorfastness_score": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    },
+    "dye_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

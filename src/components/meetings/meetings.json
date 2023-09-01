@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_meetings_meetings",
+  "info": {
+    "displayName": "Meetings"
+  },
+  "options": {},
+  "attributes": {
+    "meetingDate": {
+      "type": "datetime"
+    },
+    "meetingLink": {
+      "type": "string"
+    },
+    "meeting_document_link": {
+      "type": "string"
+    }
+  }
+}

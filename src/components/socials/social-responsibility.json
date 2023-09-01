@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_socials_social_responsibilities",
+  "info": {
+    "displayName": "Social Responsibility"
+  },
+  "options": {},
+  "attributes": {
+    "safety_measures": {
+      "type": "text"
+    },
+    "fair_practices": {
+      "type": "text"
+    },
+    "community_practices": {
+      "type": "text"
+    },
+    "Relationship": {
+      "type": "richtext"
+    }
+  }
+}

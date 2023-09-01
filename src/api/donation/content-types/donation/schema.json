@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donations",
+  "info": {
+    "singularName": "donation",
+    "pluralName": "donations",
+    "displayName": "Donations",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "donation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "donations.donations"
+    },
+    "who": {
+      "type": "component",
+      "repeatable": false,
+      "component": "persons.persons"
+    },
+    "members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::member.member",
+      "mappedBy": "donation"
+    }
+  }
+}

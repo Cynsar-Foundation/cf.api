@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_class_data_scientific_data",
+  "info": {
+    "displayName": "Scientific Data"
+  },
+  "options": {},
+  "attributes": {
+    "Common_Name": {
+      "type": "string"
+    },
+    "ScientificName": {
+      "type": "string"
+    },
+    "AgeType": {
+      "type": "string"
+    },
+    "ExtraFields": {
+      "type": "json"
+    }
+  }
+}

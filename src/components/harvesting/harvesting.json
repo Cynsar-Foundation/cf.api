@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_harvesting_harvestings",
+  "info": {
+    "displayName": "Harvesting"
+  },
+  "options": {},
+  "attributes": {
+    "methods_used": {
+      "type": "richtext"
+    },
+    "tools_used": {
+      "type": "richtext"
+    },
+    "date_picked": {
+      "type": "date"
+    },
+    "post_harvest_treatment": {
+      "type": "text"
+    },
+    "compliance_local_regulation": {
+      "type": "text"
+    }
+  }
+}

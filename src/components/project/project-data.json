@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_project_project_data",
+  "info": {
+    "displayName": "ProjectData"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "In Process",
+        "Completed",
+        "On Hold",
+        "Awaiting Approval"
+      ]
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "budgetAllocation": {
+      "type": "decimal"
+    }
+  }
+}

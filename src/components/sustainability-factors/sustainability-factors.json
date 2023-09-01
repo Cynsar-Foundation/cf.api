@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sustainability_factors_sustainability_factors",
+  "info": {
+    "displayName": "Sustainability_Factors"
+  },
+  "options": {},
+  "attributes": {
+    "Reforestation_In_Place": {
+      "type": "boolean"
+    },
+    "number_of_trees_planted_annually": {
+      "type": "string"
+    },
+    "sourcing_plant_annual": {
+      "type": "string"
+    },
+    "Management_of_Harvesting": {
+      "type": "string"
+    }
+  }
+}

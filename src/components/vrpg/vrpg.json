@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_vrpg_vrpgs",
+  "info": {
+    "displayName": "VRPG"
+  },
+  "options": {},
+  "attributes": {
+    "Values": {
+      "type": "richtext"
+    },
+    "Resources": {
+      "type": "richtext"
+    },
+    "Goals": {
+      "type": "richtext"
+    },
+    "Problems": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_yarn_dealers_yarn_dealerships",
+  "info": {
+    "displayName": "Yarn_Dealership"
+  },
+  "options": {},
+  "attributes": {
+    "date_of_sale": {
+      "type": "date"
+    },
+    "yarn_of_sold_quantity": {
+      "type": "integer"
+    },
+    "sold_value": {
+      "type": "string"
+    },
+    "number_of_suppliers_served": {
+      "type": "integer"
+    },
+    "dealer_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

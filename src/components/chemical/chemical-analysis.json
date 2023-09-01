@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_chemical_chemical_analyses",
+  "info": {
+    "displayName": "ChemicalAnalysis",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SampleMeasurement": {
+      "type": "string"
+    },
+    "ContentFound": {
+      "type": "text"
+    },
+    "DefectsFound": {
+      "type": "string"
+    },
+    "ChemicalReport": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

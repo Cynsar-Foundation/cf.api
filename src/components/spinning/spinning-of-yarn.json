@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_spinning_spinning_of_yarns",
+  "info": {
+    "displayName": "Spinning_Of_Yarn"
+  },
+  "options": {},
+  "attributes": {
+    "spinning_date": {
+      "type": "date"
+    },
+    "spinning_end_date": {
+      "type": "date"
+    },
+    "yarn_quality_score": {
+      "type": "integer"
+    },
+    "spinning_efficiency": {
+      "type": "string"
+    },
+    "Yarn_quantity": {
+      "type": "integer"
+    },
+    "spinning_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

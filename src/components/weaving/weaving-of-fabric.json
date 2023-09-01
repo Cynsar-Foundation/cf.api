@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_weaving_weaving_of_fabrics",
+  "info": {
+    "displayName": "Weaving_Of_Fabric"
+  },
+  "options": {},
+  "attributes": {
+    "weaving_start_date": {
+      "type": "date"
+    },
+    "weaving_end_date": {
+      "type": "date"
+    },
+    "Fabric_Quality": {
+      "type": "integer"
+    },
+    "design_name": {
+      "type": "string"
+    },
+    "number_of_desigsn_produced": {
+      "type": "integer"
+    },
+    "weaving_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

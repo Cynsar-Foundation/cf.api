@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ginning_of_fibre_ginning_of_fibres",
+  "info": {
+    "displayName": "Ginning of Fibre"
+  },
+  "options": {},
+  "attributes": {
+    "ginning_start_date": {
+      "type": "date"
+    },
+    "ginning_end_date": {
+      "type": "date"
+    },
+    "clean_fibre_quantity": {
+      "type": "integer"
+    },
+    "cleaning_efficiency": {
+      "type": "string"
+    },
+    "ginning_facility_location": {
+      "type": "customField",
+      "customField": "plugin::google-maps.location-picker"
+    }
+  }
+}

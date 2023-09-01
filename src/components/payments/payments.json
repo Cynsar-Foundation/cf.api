@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_payments_payments",
+  "info": {
+    "displayName": "Payments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal"
+    },
+    "Mode": {
+      "type": "enumeration",
+      "enum": [
+        "Bank",
+        "Payment Gateway"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Payment Yes",
+        "Payment No"
+      ]
+    },
+    "expense": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::expense.expense"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_certifications_certifications",
+  "info": {
+    "displayName": "certifications",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "FairTrade": {
+      "type": "boolean"
+    },
+    "OrganicCertification": {
+      "type": "boolean"
+    }
+  }
+}

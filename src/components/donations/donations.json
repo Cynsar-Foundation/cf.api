@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_donations_donations",
+  "info": {
+    "displayName": "Donations"
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "integer"
+    },
+    "Payment": {
+      "type": "enumeration",
+      "enum": [
+        "Bank",
+        "Payment Gateway",
+        "Cash"
+      ]
+    },
+    "donation_date": {
+      "type": "date"
+    }
+  }
+}

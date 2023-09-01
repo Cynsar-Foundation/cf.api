@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_persons_persons",
+  "info": {
+    "displayName": "Persons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Individual",
+        "Collective ",
+        "Farmer",
+        "Designer",
+        "Weaver",
+        "Master Weaver"
+      ]
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date_of_birth": {
+      "type": "date"
+    },
+    "email": {
+      "type": "email"
+    },
+    "vrpg_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "vrpg.vrpg"
+    }
+  }
+}
