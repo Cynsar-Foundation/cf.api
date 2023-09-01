@@ -25,6 +25,12 @@
     },
     "FullName": {
       "type": "string"
+    },
+    "expenses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expense.expense",
+      "mappedBy": "members"
     }
   }
 }

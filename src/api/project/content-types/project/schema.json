@@ -4,7 +4,7 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Project",
+    "displayName": "Projects",
     "description": ""
   },
   "options": {
@@ -40,6 +40,12 @@
       "type": "dynamiczone",
       "components": [
         "payments.payments"
+      ]
+    },
+    "MileStones": {
+      "type": "dynamiczone",
+      "components": [
+        "milestones.mile-stones"
       ]
     }
   }
