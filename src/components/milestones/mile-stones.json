@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_milestones_mile_stones",
+  "info": {
+    "displayName": "MileStones"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "milestone_external_link": {
+      "type": "string"
+    },
+    "milestoneType": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Breakthrough",
+        "Innovative",
+        "Listing",
+        "Volunteer"
+      ]
+    }
+  }
+}

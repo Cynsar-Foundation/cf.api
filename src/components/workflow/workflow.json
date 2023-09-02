@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_workflow_workflows",
+  "info": {
+    "displayName": "Workflow"
+  },
+  "options": {},
+  "attributes": {
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Invalid"
+      ]
+    },
+    "Reasons": {
+      "type": "richtext"
+    }
+  }
+}
