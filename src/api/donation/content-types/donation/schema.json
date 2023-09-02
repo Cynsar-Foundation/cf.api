@@ -17,11 +17,6 @@
       "repeatable": false,
       "component": "donations.donations"
     },
-    "who": {
-      "type": "component",
-      "repeatable": false,
-      "component": "persons.persons"
-    },
     "members": {
       "type": "relation",
       "relation": "oneToMany",

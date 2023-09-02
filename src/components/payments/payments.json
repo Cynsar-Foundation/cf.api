@@ -27,6 +27,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::expense.expense"
+    },
+    "Actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workflow.workflow"
     }
   }
 }
