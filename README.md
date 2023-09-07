@@ -31,6 +31,7 @@ Strapi is a leading open-source headless CMS. It's 100% Javascript, fully custom
 - **JYT_Sourcing**: Record supply chain data.
 - **Projects**: Information about ongoing and past projects.
 - **Expenses**: Track and manage foundation expenses.
+- **Board**: Track and manage Board activities.
 
 ## Public Access
 

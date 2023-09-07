@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_boardresolutions_board_resolutions",
+  "info": {
+    "displayName": "boardResolution"
+  },
+  "options": {},
+  "attributes": {
+    "resolutionName": {
+      "type": "string"
+    },
+    "resolutionFiles": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "resolutionPassed": {
+      "type": "date"
+    },
+    "meetingMinutes": {
+      "type": "richtext"
+    }
+  }
+}

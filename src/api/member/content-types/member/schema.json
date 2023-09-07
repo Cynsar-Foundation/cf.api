@@ -31,6 +31,12 @@
       "relation": "oneToMany",
       "target": "api::expense.expense",
       "mappedBy": "members"
+    },
+    "board": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::board.board",
+      "inversedBy": "members"
     }
   }
 }
