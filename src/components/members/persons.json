@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_members_persons",
+  "info": {
+    "displayName": "Persons"
+  },
+  "options": {},
+  "attributes": {
+    "members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::member.member"
+    }
+  }
+}
