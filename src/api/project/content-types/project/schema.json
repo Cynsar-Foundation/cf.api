@@ -48,6 +48,18 @@
       "components": [
         "members.persons"
       ]
+    },
+    "activity_log": {
+      "type": "dynamiczone",
+      "components": [
+        "logs.activity-logs"
+      ]
+    },
+    "comments": {
+      "type": "dynamiczone",
+      "components": [
+        "comments.comments"
+      ]
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_comments_comments",
+  "info": {
+    "displayName": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "comments": {
+      "type": "string"
+    },
+    "timeStamp": {
+      "type": "datetime"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
