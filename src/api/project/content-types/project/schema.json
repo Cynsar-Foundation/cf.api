@@ -15,11 +15,6 @@
     "ProjectName": {
       "type": "string"
     },
-    "People": {
-      "type": "component",
-      "repeatable": true,
-      "component": "persons.persons"
-    },
     "additionalData": {
       "type": "component",
       "repeatable": false,
@@ -46,6 +41,12 @@
       "type": "dynamiczone",
       "components": [
         "milestones.mile-stones"
+      ]
+    },
+    "people": {
+      "type": "dynamiczone",
+      "components": [
+        "members.persons"
       ]
     }
   }

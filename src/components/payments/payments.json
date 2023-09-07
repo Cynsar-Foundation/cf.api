@@ -6,32 +6,21 @@
   },
   "options": {},
   "attributes": {
-    "amount": {
-      "type": "decimal"
-    },
-    "Mode": {
-      "type": "enumeration",
-      "enum": [
-        "Bank",
-        "Payment Gateway"
-      ]
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "Payment Yes",
-        "Payment No"
-      ]
-    },
     "expense": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::expense.expense"
     },
-    "Actions": {
-      "type": "component",
-      "repeatable": true,
-      "component": "workflow.workflow"
+    "amount": {
+      "type": "decimal"
+    },
+    "payment_made": {
+      "type": "date"
+    },
+    "member": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::member.member"
     }
   }
 }
