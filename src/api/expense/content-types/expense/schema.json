@@ -17,12 +17,6 @@
       "repeatable": true,
       "component": "payments.payments"
     },
-    "members": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::member.member",
-      "inversedBy": "expenses"
-    },
     "ExpenseUniqueName": {
       "type": "string",
       "required": true,

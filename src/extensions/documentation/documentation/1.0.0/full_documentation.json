@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-07T11:55:48.669Z"
+    "x-generation-date": "2023-09-07T14:51:19.328Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -864,6 +864,14 @@
                                   "type": "string"
                                 }
                               }
+                            },
+                            "Identity": {
+                              "type": "string",
+                              "enum": [
+                                "Aadhar",
+                                "Pan Card",
+                                "Voter Id Card"
+                              ]
                             }
                           }
                         },
@@ -976,146 +984,6 @@
                         },
                         "FullName": {
                           "type": "string"
-                        },
-                        "expenses": {
-                          "type": "object",
-                          "properties": {
-                            "data": {
-                              "type": "array",
-                              "items": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {
-                                      "Payments": {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "object",
-                                          "properties": {
-                                            "id": {
-                                              "type": "number"
-                                            },
-                                            "expense": {
-                                              "type": "object",
-                                              "properties": {
-                                                "data": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            "amount": {
-                                              "type": "number",
-                                              "format": "float"
-                                            },
-                                            "payment_made": {
-                                              "type": "string",
-                                              "format": "date"
-                                            },
-                                            "member": {
-                                              "type": "object",
-                                              "properties": {
-                                                "data": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "members": {
-                                        "type": "object",
-                                        "properties": {
-                                          "data": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {}
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "ExpenseUniqueName": {
-                                        "type": "string"
-                                      },
-                                      "createdAt": {
-                                        "type": "string",
-                                        "format": "date-time"
-                                      },
-                                      "updatedAt": {
-                                        "type": "string",
-                                        "format": "date-time"
-                                      },
-                                      "publishedAt": {
-                                        "type": "string",
-                                        "format": "date-time"
-                                      },
-                                      "createdBy": {
-                                        "type": "object",
-                                        "properties": {
-                                          "data": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {}
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "updatedBy": {
-                                        "type": "object",
-                                        "properties": {
-                                          "data": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {}
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
                         },
                         "board": {
                           "type": "object",
@@ -2448,6 +2316,14 @@
                                   "type": "string"
                                 }
                               }
+                            },
+                            "Identity": {
+                              "type": "string",
+                              "enum": [
+                                "Aadhar",
+                                "Pan Card",
+                                "Voter Id Card"
+                              ]
                             }
                           }
                         },
@@ -2560,146 +2436,6 @@
                         },
                         "FullName": {
                           "type": "string"
-                        },
-                        "expenses": {
-                          "type": "object",
-                          "properties": {
-                            "data": {
-                              "type": "array",
-                              "items": {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "attributes": {
-                                    "type": "object",
-                                    "properties": {
-                                      "Payments": {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "object",
-                                          "properties": {
-                                            "id": {
-                                              "type": "number"
-                                            },
-                                            "expense": {
-                                              "type": "object",
-                                              "properties": {
-                                                "data": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            "amount": {
-                                              "type": "number",
-                                              "format": "float"
-                                            },
-                                            "payment_made": {
-                                              "type": "string",
-                                              "format": "date"
-                                            },
-                                            "member": {
-                                              "type": "object",
-                                              "properties": {
-                                                "data": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "members": {
-                                        "type": "object",
-                                        "properties": {
-                                          "data": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {}
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "ExpenseUniqueName": {
-                                        "type": "string"
-                                      },
-                                      "createdAt": {
-                                        "type": "string",
-                                        "format": "date-time"
-                                      },
-                                      "updatedAt": {
-                                        "type": "string",
-                                        "format": "date-time"
-                                      },
-                                      "publishedAt": {
-                                        "type": "string",
-                                        "format": "date-time"
-                                      },
-                                      "createdBy": {
-                                        "type": "object",
-                                        "properties": {
-                                          "data": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {}
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "updatedBy": {
-                                        "type": "object",
-                                        "properties": {
-                                          "data": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {}
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
                         },
                         "board": {
                           "type": "object",
@@ -3126,17 +2862,6 @@
                   "$ref": "#/components/schemas/PaymentsPaymentsComponent"
                 }
               },
-              "members": {
-                "oneOf": [
-                  {
-                    "type": "integer"
-                  },
-                  {
-                    "type": "string"
-                  }
-                ],
-                "example": "string or id"
-              },
               "ExpenseUniqueName": {
                 "type": "string"
               }
@@ -3200,23 +2925,6 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/PaymentsPaymentsComponent"
-            }
-          },
-          "members": {
-            "type": "object",
-            "properties": {
-              "data": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "number"
-                  },
-                  "attributes": {
-                    "type": "object",
-                    "properties": {}
-                  }
-                }
-              }
             }
           },
           "ExpenseUniqueName": {
@@ -3547,6 +3255,14 @@
                                                   "type": "string"
                                                 }
                                               }
+                                            },
+                                            "Identity": {
+                                              "type": "string",
+                                              "enum": [
+                                                "Aadhar",
+                                                "Pan Card",
+                                                "Voter Id Card"
+                                              ]
                                             }
                                           }
                                         },
@@ -3659,26 +3375,6 @@
                                         },
                                         "FullName": {
                                           "type": "string"
-                                        },
-                                        "expenses": {
-                                          "type": "object",
-                                          "properties": {
-                                            "data": {
-                                              "type": "array",
-                                              "items": {
-                                                "type": "object",
-                                                "properties": {
-                                                  "id": {
-                                                    "type": "number"
-                                                  },
-                                                  "attributes": {
-                                                    "type": "object",
-                                                    "properties": {}
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
                                         },
                                         "board": {
                                           "type": "object",
@@ -3992,22 +3688,158 @@
                                   }
                                 }
                               }
-                            }
-                          }
-                        }
-                      },
-                      "members": {
-                        "type": "object",
-                        "properties": {
-                          "data": {
-                            "type": "object",
-                            "properties": {
-                              "id": {
-                                "type": "number"
-                              },
-                              "attributes": {
-                                "type": "object",
-                                "properties": {}
+                            },
+                            "mode": {
+                              "type": "string",
+                              "enum": [
+                                "Bank",
+                                "UPI",
+                                "Internet Payment"
+                              ]
+                            },
+                            "paymentFor": {
+                              "type": "string"
+                            },
+                            "billsMedia": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {
+                                          "name": {
+                                            "type": "string"
+                                          },
+                                          "alternativeText": {
+                                            "type": "string"
+                                          },
+                                          "caption": {
+                                            "type": "string"
+                                          },
+                                          "width": {
+                                            "type": "integer"
+                                          },
+                                          "height": {
+                                            "type": "integer"
+                                          },
+                                          "formats": {},
+                                          "hash": {
+                                            "type": "string"
+                                          },
+                                          "ext": {
+                                            "type": "string"
+                                          },
+                                          "mime": {
+                                            "type": "string"
+                                          },
+                                          "size": {
+                                            "type": "number",
+                                            "format": "float"
+                                          },
+                                          "url": {
+                                            "type": "string"
+                                          },
+                                          "previewUrl": {
+                                            "type": "string"
+                                          },
+                                          "provider": {
+                                            "type": "string"
+                                          },
+                                          "provider_metadata": {},
+                                          "related": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "attributes": {
+                                                      "type": "object",
+                                                      "properties": {}
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "folder": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "folderPath": {
+                                            "type": "string"
+                                          },
+                                          "createdAt": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                          },
+                                          "updatedAt": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                          },
+                                          "createdBy": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "updatedBy": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "number"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
                               }
                             }
                           }
@@ -4088,6 +3920,159 @@
                   "attributes": {
                     "type": "object",
                     "properties": {}
+                  }
+                }
+              }
+            }
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "Bank",
+              "UPI",
+              "Internet Payment"
+            ]
+          },
+          "paymentFor": {
+            "type": "string"
+          },
+          "billsMedia": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {},
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number",
+                          "format": "float"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {},
+                        "related": {
+                          "type": "object",
+                          "properties": {
+                            "data": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "number"
+                                  },
+                                  "attributes": {
+                                    "type": "object",
+                                    "properties": {}
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "folder": {
+                          "type": "object",
+                          "properties": {
+                            "data": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "number"
+                                },
+                                "attributes": {
+                                  "type": "object",
+                                  "properties": {}
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "folderPath": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "updatedAt": {
+                          "type": "string",
+                          "format": "date-time"
+                        },
+                        "createdBy": {
+                          "type": "object",
+                          "properties": {
+                            "data": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "number"
+                                },
+                                "attributes": {
+                                  "type": "object",
+                                  "properties": {}
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "updatedBy": {
+                          "type": "object",
+                          "properties": {
+                            "data": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "number"
+                                },
+                                "attributes": {
+                                  "type": "object",
+                                  "properties": {}
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -6166,6 +6151,14 @@
                 "type": "string"
               }
             }
+          },
+          "Identity": {
+            "type": "string",
+            "enum": [
+              "Aadhar",
+              "Pan Card",
+              "Voter Id Card"
+            ]
           }
         }
       },
@@ -6423,20 +6416,6 @@
               },
               "FullName": {
                 "type": "string"
-              },
-              "expenses": {
-                "type": "array",
-                "items": {
-                  "oneOf": [
-                    {
-                      "type": "integer"
-                    },
-                    {
-                      "type": "string"
-                    }
-                  ],
-                  "example": "string or id"
-                }
               },
               "board": {
                 "oneOf": [
@@ -6743,6 +6722,14 @@
                                               "type": "string"
                                             }
                                           }
+                                        },
+                                        "Identity": {
+                                          "type": "string",
+                                          "enum": [
+                                            "Aadhar",
+                                            "Pan Card",
+                                            "Voter Id Card"
+                                          ]
                                         }
                                       }
                                     },
@@ -6765,146 +6752,6 @@
                                     },
                                     "FullName": {
                                       "type": "string"
-                                    },
-                                    "expenses": {
-                                      "type": "object",
-                                      "properties": {
-                                        "data": {
-                                          "type": "array",
-                                          "items": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "attributes": {
-                                                "type": "object",
-                                                "properties": {
-                                                  "Payments": {
-                                                    "type": "array",
-                                                    "items": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "id": {
-                                                          "type": "number"
-                                                        },
-                                                        "expense": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "data": {
-                                                              "type": "object",
-                                                              "properties": {
-                                                                "id": {
-                                                                  "type": "number"
-                                                                },
-                                                                "attributes": {
-                                                                  "type": "object",
-                                                                  "properties": {}
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        },
-                                                        "amount": {
-                                                          "type": "number",
-                                                          "format": "float"
-                                                        },
-                                                        "payment_made": {
-                                                          "type": "string",
-                                                          "format": "date"
-                                                        },
-                                                        "member": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "data": {
-                                                              "type": "object",
-                                                              "properties": {
-                                                                "id": {
-                                                                  "type": "number"
-                                                                },
-                                                                "attributes": {
-                                                                  "type": "object",
-                                                                  "properties": {}
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "members": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "data": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "id": {
-                                                            "type": "number"
-                                                          },
-                                                          "attributes": {
-                                                            "type": "object",
-                                                            "properties": {}
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "ExpenseUniqueName": {
-                                                    "type": "string"
-                                                  },
-                                                  "createdAt": {
-                                                    "type": "string",
-                                                    "format": "date-time"
-                                                  },
-                                                  "updatedAt": {
-                                                    "type": "string",
-                                                    "format": "date-time"
-                                                  },
-                                                  "publishedAt": {
-                                                    "type": "string",
-                                                    "format": "date-time"
-                                                  },
-                                                  "createdBy": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "data": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "id": {
-                                                            "type": "number"
-                                                          },
-                                                          "attributes": {
-                                                            "type": "object",
-                                                            "properties": {}
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "updatedBy": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "data": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "id": {
-                                                            "type": "number"
-                                                          },
-                                                          "attributes": {
-                                                            "type": "object",
-                                                            "properties": {}
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
                                     },
                                     "board": {
                                       "type": "object",
@@ -7274,26 +7121,6 @@
           },
           "FullName": {
             "type": "string"
-          },
-          "expenses": {
-            "type": "object",
-            "properties": {
-              "data": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "type": "number"
-                    },
-                    "attributes": {
-                      "type": "object",
-                      "properties": {}
-                    }
-                  }
-                }
-              }
-            }
           },
           "board": {
             "type": "object",

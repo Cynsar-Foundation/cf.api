@@ -41,6 +41,14 @@
       "type": "component",
       "repeatable": false,
       "component": "vrpg.vrpg"
+    },
+    "Identity": {
+      "type": "enumeration",
+      "enum": [
+        "Aadhar",
+        "Pan Card",
+        "Voter Id Card"
+      ]
     }
   }
 }
