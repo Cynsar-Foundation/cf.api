@@ -17,7 +17,7 @@
     "@strapi/plugin-i18n": "4.13.3",
     "@strapi/plugin-users-permissions": "4.13.3",
     "@strapi/provider-email-sendgrid": "^4.13.3",
-    "@strapi/provider-upload-cloudinary": "^4.13.3",
+    "@strapi/provider-upload-aws-s3": "^4.13.3",
     "@strapi/strapi": "4.13.3",
     "@yarnpkg/pnpify": "^4.0.0-rc.48",
     "better-sqlite3": "8.0.1",
