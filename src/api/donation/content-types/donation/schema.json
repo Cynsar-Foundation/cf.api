@@ -17,11 +17,17 @@
       "repeatable": false,
       "component": "donations.donations"
     },
-    "members": {
+    "member": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::member.member",
-      "mappedBy": "donation"
+      "inversedBy": "donation"
+    },
+    "hasSentRec": {
+      "type": "boolean"
+    },
+    "docuSentID": {
+      "type": "string"
     }
   }
 }

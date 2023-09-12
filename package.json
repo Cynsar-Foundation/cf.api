@@ -1,13 +1,14 @@
 {
   "name": "jaal-yantra",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Full fledged open database server for textiles",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "test": "jest --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "@amicaldo/strapi-google-maps": "1.0.4",
@@ -34,5 +35,18 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": "<=6.x.x"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sqlite3": "^5.1.6",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      ".tmp",
+      ".cache"
+    ],
+    "testEnvironment": "node"
+  }
 }

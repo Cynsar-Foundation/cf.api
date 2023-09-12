@@ -49,6 +49,12 @@
         "Pan Card",
         "Voter Id Card"
       ]
+    },
+    "pancard": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
     }
   }
 }

@@ -17,12 +17,6 @@
       "repeatable": false,
       "component": "persons.persons"
     },
-    "donation": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::donation.donation",
-      "inversedBy": "members"
-    },
     "FullName": {
       "type": "string"
     },
@@ -31,6 +25,12 @@
       "relation": "manyToOne",
       "target": "api::board.board",
       "inversedBy": "members"
+    },
+    "donation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::donation.donation",
+      "mappedBy": "member"
     }
   }
 }

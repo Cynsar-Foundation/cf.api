@@ -6,9 +6,11 @@ Welcome to the Cynsar Foundation API, built on top of Strapi. This API is design
 
 - [Authors](#authors)
 - [Why Strapi?](#why-strapi)
+- [Dependency](#depdencies)
 - [API Endpoints](#api-endpoints)
 - [Public Access](#public-access)
 - [Future Work](#future-work)
+
 
 ## Authors
 
@@ -33,6 +35,10 @@ Strapi is a leading open-source headless CMS. It's 100% Javascript, fully custom
 - **Expenses**: Track and manage foundation expenses.
 - **Board**: Track and manage Board activities.
 
+## File Storage 
+
+All of the files are stored at the AWS S3, we are willing to explore the option of storing our files on the other types of decentralised file systems.
+
 ## Public Access
 
 Public users can view the data by registering for an API key. Get your API key [here](<API key registration link>).
@@ -40,6 +46,7 @@ Public users can view the data by registering for an API key. Get your API key [
 ## Future Work
 
 We are continuously working to improve and automate the API. Our vision is to be an "API-first" non-profit, ensuring seamless integration and data accessibility.
+
 
 ---
 
