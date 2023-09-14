@@ -23,7 +23,7 @@ module.exports = {
               pancard: pancard,
               address: address
             };
-            console.log(donationData)
+    
             // Sending to the service
             const sendToDocuSeal = await strapi.service('api::donation.donation').generateAndSend(donationData);
 
