@@ -1,6 +1,3 @@
-const donation = require("../../controllers/donation");
-
-
 module.exports = {
       async afterCreate(result) {
 

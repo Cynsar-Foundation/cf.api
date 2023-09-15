@@ -31,6 +31,17 @@
       "relation": "oneToOne",
       "target": "api::donation.donation",
       "mappedBy": "member"
+    },
+    "isReviewer": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }

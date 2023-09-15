@@ -2,7 +2,7 @@
   "name": "jaal-yantra",
   "private": true,
   "version": "0.1.1",
-  "description": "Full fledged open database server for textiles",
+  "description": "Full fledged open API for non profits",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
