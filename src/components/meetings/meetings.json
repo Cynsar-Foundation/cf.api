@@ -1,7 +1,8 @@
 {
   "collectionName": "components_meetings_meetings",
   "info": {
-    "displayName": "Meetings"
+    "displayName": "Meetings",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
     },
     "meeting_document_link": {
       "type": "string"
+    },
+    "meeting_extra_text": {
+      "type": "richtext"
     }
   }
 }
