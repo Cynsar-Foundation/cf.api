@@ -6,6 +6,7 @@ Welcome to the Cynsar Foundation API, built on top of Strapi. This API is design
 
 - [Authors](#authors)
 - [Why Strapi?](#why-strapi)
+- [Why Moving to Directus?](#why-moving-to-directus)
 - [Dependency](#depdencies)
 - [API Endpoints](#api-endpoints)
 - [Public Access](#public-access)
