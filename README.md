@@ -26,6 +26,10 @@ Strapi is a leading open-source headless CMS. It's 100% Javascript, fully custom
 - **Performance**: Built on top of Node.js, Strapi ensures optimal performance.
 - **Developer-friendly**: Offers a powerful CLI and admin panel, and is plugin-oriented.
 
+## Why Moving to Directus?
+
+In our journey with Strapi, we encountered several obstacles. One significant challenge was the necessity to design or write code for each workflow. This approach risked increasing our 'code debt'—a concept you can explore further [here]. Our aim is to offer a streamlined interface for administrators, enabling them to create unique logical workflows in Directus without the need for coding. Additionally, a key advantage of transitioning to Directus is the flexibility it offers in allowing real-time schema redesigns.
+
 
 ## Dependencies
 
